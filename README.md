@@ -1,5 +1,6 @@
 # id5_verifier
-Python script to check if an imgur id5 url is valid. 
+Python script to check which imgur id5 urls are valid. 
+Multi threaded and low bandwidth! Begins checking at either 0 or a number specified and will continue till it reaches ~1billion attempts 
 The only thing you need to install is pybase62 which you can get by running python.exe -m pip install pybase62 
 
 This was quickly hacked together so it isn’t totally perfect but it kind of works, be sure to read code comments. This is intended to be ran twice, once forwards and once in reverse just to be 100% sure all possible products are calculated. You need to un comment some lines to do this.
